@@ -1,0 +1,52 @@
+
+
+spaCY - industrial strengh natural langauge processing 
+	- 470m downloads
+- Prodigy annotation tool for machine learning developers
+	- scripting in python 
+- Evoluition of coding assistants
+	- help developer implement code for the given tools
+	- picked the right libraries to use
+	- new userbase of devs that are discovering tools and libraries through coding assistants through the past couple of years
+	- help developer pick the right rools and implement code to solve a business problem 
+	- solve the problem directly and ask the model directly and it should be resonably good 
+	- how to really use that new power of the models
+	- continuation of the text - collerated with the right answer - not the best way to access the information from the model
+	- llms don't have access to the character level - surprsinlingly bad at this 
+	- has to utlizite knowledge it learnt from somewhere else 
+	- have to try again 
+	- ask it to write a script - transfomr the prompt to write a program and apply the reuslt over and over again 
+	- scalable code, maintainable, extensible - without having to run the computation again from scratch - faster, cheaper
+	- OSS ecosystem, coding assistants, lot of experience with writing code for a long time - build better systems and better programs 
+- Using LLMs as the system 
+		- one model to rule them all 
+			- solve any problem you throw at it
+			- the llm becomes the system 
+		- but is it the best way to look at it?
+		- use llms to build the system 
+		- lot more control over the output format
+		- by default llms output natural langauges (consumed by humans) but for data consumed by machines we need structed data
+		- most industry applications of nlp are part of a larger system 
+		- most nlp systems consist of flat classifications - can decompose them into smaller pieces 
+		- human in the loop distillation - start out with a large langauge model - have to compute some sort of baseline to see how the model performs out of the box 
+			- we can use the model and all the weights it has to perform a spefic task 
+			- pipe that forward into other tools
+			- every model makes mistakes - need a human to correct mistakes 
+			- we can extract the parts that we are interested in  - transfer learning 
+			- different technique 
+			- train a component to do the task we're interested in until it exceeds the baseline 
+	- Future 
+		- how can we keep up?
+		- pareto frontier - accuracy over cost for ai models - keeps scaling up computation 
+		- likely see this continue
+		- better results for making the models larger and more expensive
+		- good news for cloud providers but sucks for the regular user 
+		- if we use llm as a dev tool over using it as a system - use llms to create runtime systems
+		- use the data it generates to train classifiers, break down business problems 
+		- beyond genAI as chat assistants - code is more relevant - we will still need programmers - libraries that we use, OSS systems etc
+	- Conculsion 
+		- use LLMs to build the system, not as the system
+		- there's no need to compromise on developement best practices or privacy 
+		- code is more important than ever - not less! if we are using LLMs to build systems and write programs it's more importants
+		- we need tools that are flexible - to let us build what we are looking for
+		- great OSS ecosytem 
