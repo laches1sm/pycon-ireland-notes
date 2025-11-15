@@ -122,4 +122,6 @@
 							* Prepare data and feed it to our model 
 							* https://github.com/gillus/tiny_corpus_prep
 							* https://github.com/karpathy/nanochat
-						* 
+						* How small can a useful model be?
+						* Data curation is a key differentiatior when training compact and high performing models
+						* Resources like nanochat allow for experiements 
